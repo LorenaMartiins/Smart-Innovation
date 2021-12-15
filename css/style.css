@@ -1,0 +1,199 @@
+body {
+  background: rgb(224, 224, 224);
+}
+
+/*--------- MENU -----------*/
+
+.service {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.button {
+  background: rgb(206, 3, 3);
+  font-size: 18px;
+}
+
+.fundo-menu {
+  background: rgba(255, 255, 255, 0.767);
+}
+
+/*-------------- BANNER --------*/
+.banner {
+  width: 100%;
+  height: 1500px;
+}
+
+.linha-banner {
+  border-bottom: 100px solid rgb(175, 1, 1);
+  position: relative;
+  transform: skewY(5deg);
+  bottom: -230px;
+}
+
+.linha-banner-branca {
+  border-bottom: 250px solid rgb(224, 224, 224);
+  position: absolute;
+  transform: skewY(6deg);
+  bottom: -430px;
+}
+
+.central {
+  background: rgba(0, 0, 0, 0.651);
+  height: 350px;
+  width: 63%;
+}
+
+.central h1,
+p {
+  color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.central h1 {
+  margin-left: 50px;
+  margin-top: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+.button-learn {
+  background: rgb(206, 3, 3);
+  margin-left: 50px;
+  font-size: 18px;
+}
+
+/*--------------------CONTEÚDO---------------*/
+
+.advantage p {
+  z-index: 1;
+  color: #000;
+  margin-left: 0px;
+}
+
+.advantage {
+  margin: 100px;
+}
+
+.contact {
+  transform: rotate(270deg);
+  right: -365px;
+  background: rgb(175, 1, 1);
+  font-size: 20px;
+}
+
+.fire-services {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.fire-services h2 {
+  margin-left: 50px;
+}
+
+.menu-scroll {
+  font-size: 20px;
+  margin-left: 50px;
+  border-bottom: 5px solid gray;
+}
+
+.inspection {
+  margin-left: 5%;
+  padding: 0px;
+}
+
+.inspection li {
+  padding-left: 10%;
+  border-bottom: 4px solid #525252;
+  font-weight: bold;
+}
+
+.inspection li a:hover:not(.uk-active) {
+  border-bottom: 4px solid rgb(148, 0, 0);
+}
+
+.conteudo-inspection {
+  margin-left: -308px;
+}
+
+.text-h2 {
+  margin-left: 50px;
+}
+
+.button-inpection {
+  background: rgb(175, 1, 1);
+  margin-left: 50px;
+  margin-top: 50px;
+  font-size: 18px;
+}
+
+.proud {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.proud h2 {
+  margin-left: 50px;
+}
+
+.cards {
+  margin-left: -90px;
+}
+
+.slide-cards li span {
+  height: 250px;
+  width: 250px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.button-more {
+  font-size: 18px;
+  width: 200px;
+  height: 50px;
+  margin-top: 50px;
+  background: rgb(175, 1, 1);
+  margin-left: 300px;
+  position: relative;
+  z-index: 3;
+}
+
+.image-featured {
+  filter: grayscale(100%);
+  filter: saturate(0.5%);
+  filter: gray;
+}
+
+/*------------ CARROSSEL --------------*/
+
+.linha-carrossel-vermelha {
+  border-bottom: 100px solid rgb(175, 1, 1);
+  position: absolute;
+  transform: skewY(-5deg);
+  bottom: -235%;
+  z-index: 1;
+}
+
+.linha-carrossel-branca {
+  border-bottom: 200px solid rgb(224, 224, 224);
+  position: absolute;
+  transform: skewY(-3.8deg);
+  bottom: -230%;
+  z-index: 2;
+}
+
+.linha-carrossel-vermelha2 {
+  border-bottom: 100px solid rgb(175, 1, 1);
+  position: relative;
+  transform: skewY(5deg);
+  bottom: -355%;
+}
+
+.linha-carrossel-branca2 {
+  border-bottom: 250px solid rgb(224, 224, 224);
+  position: absolute;
+  transform: skewY(6deg);
+  bottom: -372%;
+}
