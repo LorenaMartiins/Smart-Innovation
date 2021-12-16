@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+
 body {
   background: rgb(224, 224, 224);
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
 /*--------- MENU -----------*/
 
 .service {
@@ -27,17 +28,19 @@ body {
 }
 
 .linha-banner {
-  border-bottom: 100px solid rgb(175, 1, 1);
+  background: rgb(175, 1, 1);
+  height: 100px;
   position: relative;
   transform: skewY(5deg);
-  bottom: -250px;
+  top: 1140px;
 }
 
 .linha-banner-branca {
-  border-bottom: 200px solid rgb(224, 224, 224);
+  background: rgb(224, 224, 224);
+  height: 200px;
   position: absolute;
   transform: skewY(6deg);
-  bottom: -400px;
+  top: 1180px;
 }
 
 .central {
@@ -86,8 +89,8 @@ p {
 }
 
 .fire-services {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .fire-services h2 {
@@ -97,11 +100,11 @@ p {
 .menu-scroll {
   font-size: 20px;
   margin-left: 50px;
-  border-bottom: 5px solid gray;
+  border-bottom: 2px solid gray;
 }
 
 .inspection {
-  margin-left: 5%;
+  margin-left: 50px;
   padding: 0px;
 }
 
@@ -116,7 +119,7 @@ p {
 }
 
 .conteudo-inspection {
-  margin-left: -308px;
+  margin-left: -100px;
 }
 
 .text-h2 {
@@ -131,9 +134,10 @@ p {
 }
 
 .proud,
-.article {
-  margin-left: 10%;
-  margin-right: 10%;
+.article,
+.fire-services {
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 .proud h2 {
@@ -171,33 +175,35 @@ p {
 
 /*------------ CARROSSEL --------------*/
 .borda-superior-carrossel-vermelha {
-  border-bottom: 100px solid rgb(175, 1, 1);
+  background: rgb(175, 1, 1);
   position: absolute;
   transform: skewY(-5deg);
-  bottom: -285%;
+  top: 3650px;
   z-index: 1;
 }
 
 .borda-superior-carrossel-branca {
-  border-bottom: 200px solid rgb(224, 224, 224);
+  background: rgb(224, 224, 224);
   position: absolute;
   transform: skewY(-4deg);
-  bottom: -281%;
+  top: 3475px;
   z-index: 1;
+  height: 200px;
 }
 
 .borda-inferior-carrossel-vermelha {
-  border-bottom: 100px solid rgb(175, 1, 1);
+  background: rgb(175, 1, 1);
   position: absolute;
   transform: skewY(5deg);
-  bottom: -405%;
+  top: 4750px;
 }
 
 .borda-inferior-carrossel-branca {
-  border-bottom: 200px solid rgb(224, 224, 224);
+  background: rgb(224, 224, 224);
   position: absolute;
+  height: 200px;
   transform: skewY(6deg);
-  bottom: -420%;
+  top: 4790px;
 }
 
 .fire-carrossel {
@@ -379,6 +385,10 @@ p {
   height: 40px;
   margin-bottom: 200px;
 }
+.h4-contact {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
 
 /*-----------------FOOTER-----------*/
 .icon {
@@ -423,7 +433,7 @@ footer {
   height: 300px;
   position: relative;
   background: black;
-  top: 7740px;
+  top: 7850px;
   transform: skewY(-6deg);
   z-index: 1;
 }
@@ -432,7 +442,7 @@ footer {
   height: 100px;
   position: absolute;
   background: rgb(175, 1, 1);
-  top: 7700px;
+  top: 7800px;
   transform: skewY(-5deg);
 }
 
