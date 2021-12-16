@@ -2,6 +2,7 @@ body {
   background: rgb(224, 224, 224);
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
 /*--------- MENU -----------*/
 
 .service {
@@ -22,21 +23,21 @@ body {
 /*-------------- BANNER --------*/
 .banner {
   width: 100%;
-  height: 1500px;
+  height: 100%;
 }
 
 .linha-banner {
   border-bottom: 100px solid rgb(175, 1, 1);
   position: relative;
   transform: skewY(5deg);
-  bottom: -230px;
+  bottom: -250px;
 }
 
 .linha-banner-branca {
-  border-bottom: 250px solid rgb(224, 224, 224);
+  border-bottom: 200px solid rgb(224, 224, 224);
   position: absolute;
   transform: skewY(6deg);
-  bottom: -430px;
+  bottom: -400px;
 }
 
 .central {
@@ -79,7 +80,7 @@ p {
 
 .contact {
   transform: rotate(270deg);
-  right: -365px;
+  right: -250px;
   background: rgb(175, 1, 1);
   font-size: 20px;
 }
@@ -129,7 +130,8 @@ p {
   font-size: 18px;
 }
 
-.proud {
+.proud,
+.article {
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -157,43 +159,284 @@ p {
   background: rgb(175, 1, 1);
   margin-left: 300px;
   position: relative;
-  z-index: 3;
 }
 
 .image-featured {
   filter: grayscale(100%);
   filter: saturate(0.5%);
   filter: gray;
+  width: 100%;
+  z-index: 0;
 }
 
 /*------------ CARROSSEL --------------*/
-
-.linha-carrossel-vermelha {
+.borda-superior-carrossel-vermelha {
   border-bottom: 100px solid rgb(175, 1, 1);
   position: absolute;
   transform: skewY(-5deg);
-  bottom: -235%;
+  bottom: -285%;
   z-index: 1;
 }
 
-.linha-carrossel-branca {
+.borda-superior-carrossel-branca {
   border-bottom: 200px solid rgb(224, 224, 224);
   position: absolute;
-  transform: skewY(-3.8deg);
-  bottom: -230%;
-  z-index: 2;
+  transform: skewY(-4deg);
+  bottom: -281%;
+  z-index: 1;
 }
 
-.linha-carrossel-vermelha2 {
+.borda-inferior-carrossel-vermelha {
   border-bottom: 100px solid rgb(175, 1, 1);
-  position: relative;
+  position: absolute;
   transform: skewY(5deg);
-  bottom: -355%;
+  bottom: -405%;
 }
 
-.linha-carrossel-branca2 {
-  border-bottom: 250px solid rgb(224, 224, 224);
+.borda-inferior-carrossel-branca {
+  border-bottom: 200px solid rgb(224, 224, 224);
   position: absolute;
   transform: skewY(6deg);
-  bottom: -372%;
+  bottom: -420%;
+}
+
+.fire-carrossel {
+  top: 390%;
+  width: 1000px;
+  height: 180px;
+  background: rgba(0, 0, 0, 0.651);
+}
+
+.h2-carrossel {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.slide {
+  position: absolute;
+  z-index: 3;
+  top: 400%;
+  width: 100%;
+  top: 410%;
+  background: transparent;
+}
+
+.image-carrossel {
+  position: relative;
+  width: 500px;
+  left: -200px;
+}
+
+.conteudo-carrossel {
+  width: 400px;
+  padding: 20px;
+  height: 350px;
+  position: absolute;
+  left: 280px;
+  top: -33px;
+  background: rgba(0, 0, 0, 0.726);
+}
+
+.conteudo-carrossel p {
+  font-family: "Raleway-Light 300", sans-serif;
+  margin-left: 0;
+}
+
+.conteudo-carrossel h3 {
+  font-family: "Raleway-Medium", sans-serif;
+}
+
+.button-carrossel {
+  color: black;
+  font-size: 18px;
+  font-family: "Raleway-Medium", sans-serif;
+}
+
+.seta-right,
+.seta-left {
+  top: 200px;
+}
+
+/*----------ARTICLE--------*/
+
+.article p {
+  margin: 0;
+  width: 1000px;
+}
+
+.cards-article {
+  width: 400px;
+  padding-left: 20px;
+}
+
+.article-flex {
+  padding-left: 10px;
+}
+
+/*--------REVIEW---------*/
+.borda-superior-review-vermelha {
+  border-bottom: 100px solid rgb(175, 1, 1);
+  position: absolute;
+  transform: skewY(-5deg);
+  bottom: -4700px;
+  z-index: 1;
+}
+
+.borda-superior-review-branca {
+  border-bottom: 150px solid rgb(224, 224, 224);
+  position: absolute;
+  transform: skewY(-4deg);
+  bottom: -4650px;
+  z-index: 1;
+}
+
+.borda-inferior-review-vermelha {
+  border-bottom: 100px solid rgb(175, 1, 1);
+  position: absolute;
+  transform: skewY(5deg);
+  bottom: -5850px;
+}
+
+.borda-inferior-review-branca {
+  border-bottom: 200px solid rgb(224, 224, 224);
+  position: absolute;
+  transform: skewY(6deg);
+  bottom: -5989px;
+}
+
+.slide-review {
+  position: absolute;
+  z-index: 3;
+  top: 5990px;
+  width: 100%;
+  background: transparent;
+}
+
+.card-review {
+  width: 580px;
+  height: 300px;
+  background: rgba(48, 48, 48, 0.774);
+}
+
+.h3-review {
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
+.button-review {
+  position: absolute;
+  z-index: 3;
+  top: 6400px;
+  width: 300px;
+  background: transparent;
+}
+
+.button-review-more {
+  background: rgb(175, 1, 1);
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+}
+
+/*---------CONTACT US---------*/
+
+.contact-us h2,
+p {
+  text-align: center;
+}
+
+.contact-us p {
+  margin-left: 615px;
+  width: 700px;
+  text-align: left;
+}
+
+.form {
+  width: 700px;
+  margin-left: 600px;
+}
+
+.number {
+  width: 350px;
+}
+
+.input {
+  background: #bbbbbb;
+}
+
+.robo {
+  height: 60px;
+  width: 300px;
+  background: white;
+  margin-left: 615px;
+}
+
+.button-submit {
+  background: rgb(175, 1, 1);
+  font-size: 18px;
+  margin-left: 200px;
+  width: 200px;
+  height: 40px;
+  margin-bottom: 200px;
+}
+
+/*-----------------FOOTER-----------*/
+.icon {
+  background: rgb(65, 35, 235);
+  color: #000;
+}
+
+.copy {
+  margin: 0;
+}
+
+.follow {
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.categorias {
+  padding: 20px;
+  margin-right: 200px;
+}
+
+.divisor {
+  width: 150px;
+  border: 1px solid;
+}
+
+.menu-footer {
+  width: 100px;
+  padding-left: 100px;
+  color: white;
+}
+
+.menu-footer h4 {
+  color: white;
+}
+
+footer {
+  background: black;
+}
+
+.barra-footer {
+  height: 300px;
+  position: relative;
+  background: black;
+  top: 7740px;
+  transform: skewY(-6deg);
+  z-index: 1;
+}
+
+.barra-footer-vermelha {
+  height: 100px;
+  position: absolute;
+  background: rgb(175, 1, 1);
+  top: 7700px;
+  transform: skewY(-5deg);
+}
+
+.menu {
+  z-index: 2;
+  margin-top: 500px;
 }
